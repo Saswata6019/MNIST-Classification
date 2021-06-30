@@ -16,8 +16,6 @@ from numpy import asarray
 
 (train_images, train_labels), (test_images, test_labels) = datasets.mnist.load_data()
 
-class_names = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
-
 plt.figure(figsize=(10,10))
 
 for i in range(25):
@@ -26,7 +24,7 @@ for i in range(25):
     plt.yticks([])
     plt.grid(False)
     plt.imshow(train_images[i], cmap = plt.get_cmap('gray'))
-    plt.xlabel(class_names[train_labels[i]])
+    plt.xlabel(train_labels[i])
 
 plt.show()
 
