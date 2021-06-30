@@ -1,5 +1,5 @@
 # MNIST Classification
-Digit Classification using the MNIST dataset and Image Processing (Tensorflow 1.12.0 and Python 3.6.6)
+Digit Classification using the MNIST dataset and a Convolutional Neural Network for Image Processing (Tensorflow 1.12.0 and Python 3.6.6)
 
 - Editor used: Sublime Text 3
 - Shell used to run the code: Git Bash
