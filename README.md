@@ -4,7 +4,6 @@ Digit Classification using a Convolutional Neural Network for Image Processing (
 - Editor used: Sublime Text 3
 - Shell used to run the code: Git Bash
 - Libraries used: Numpy, Matplotlib, PIL & Tensorflow
-- The MNIST dataset is downloaded using the load_data() function
 - The purpose of the model is to be able to distinguish between digits (0-9) and ultimately, be able to determine which digit is being shown to the model during the prediction step
 - sample_image.jpg is the image which is shown to the model during the prediction step
 
