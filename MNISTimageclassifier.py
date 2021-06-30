@@ -12,7 +12,7 @@ import numpy as np
 
 from numpy import asarray
 
-# Data load and visualization
+# Data load and visualization of a part of the dataset
 
 (train_images, train_labels), (test_images, test_labels) = datasets.mnist.load_data()
 
