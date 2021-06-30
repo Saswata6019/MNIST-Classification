@@ -124,10 +124,6 @@ def load_image(filename):
 
 	img = asarray(img)
 
-	# img = load_img(filename, grayscale=True, target_size=(28, 28))
-
-	# img = img_to_array(img)
-
 	img = img.reshape(-1, 28, 28, 1)
 
 	img = img / 255.0
