@@ -7,5 +7,5 @@ Digit Classification using the MNIST dataset and Image Processing (Tensorflow 1.
 - The MNIST dataset is downloaded using the load_data() function
 
 Insight on the MNIST database 
-- The MNIST database contains 60,000 training images and 10,000 testing images. 
+- The MNIST database contains 60,000 training images and 10,000 testing images
 - The images have a size of 28x28 pixels
