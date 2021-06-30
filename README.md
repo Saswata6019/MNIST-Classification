@@ -5,7 +5,8 @@ Digit Classification using the MNIST dataset and Image Processing (Tensorflow 1.
 - Shell used to run the code: Git Bash
 - Libraries used: Numpy, Matplotlib, PIL & Tensorflow
 - The MNIST dataset is downloaded using the load_data() function
-- The purpose of the model is to be able to distinguish between digits and ultimately, be able to determine which digit is being shown to the model during the prediction step
+- The purpose of the model is to be able to distinguish between digits (0-9) and ultimately, be able to determine which digit is being shown to the model during the prediction step
+- sample_image.jpg is the image which is shown to the model during the prediction step
 
 Insight on the MNIST database 
 - The MNIST database contains 60,000 training images and 10,000 testing images
