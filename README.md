@@ -10,4 +10,4 @@ Digit Classification using a Convolutional Neural Network for Image Processing (
 
 Insight on the MNIST database 
 - The MNIST database contains 60,000 training images and 10,000 testing images
-- The images have a size of 28x28 pixels
+- Each image has a size of 28x28 pixels and consists of a single channel
