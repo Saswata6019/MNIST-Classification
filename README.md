@@ -3,9 +3,8 @@ Digit Classification using the MNIST dataset and Image Processing (Tensorflow 1.
 
 - Editor used: Sublime Text 3
 - Shell used to run the code: Git Bash
-- Libraries used: Pandas, Numpy & Tensorflow
-- iris.csv is the main dataset, which is used for the training and testing stages of the model
-- iris_predict.csv is the prediction dataset, which is used as input for the prediction stage of the model after the training and testing stages are completed
+- Libraries used: Numpy, Matplotlib, PIL & Tensorflow
+- The MNIST dataset is downloaded using the load_data() function
 
 Insight on iris.csv
 - There are a total of 5 columns of data
