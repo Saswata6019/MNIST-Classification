@@ -70,6 +70,8 @@ classifier.compile(optimizer = 'adam', loss = 'sparse_categorical_crossentropy',
 history = classifier.fit(train_images, train_labels, batch_size = 32, epochs = 10, verbose = 1, 
 	validation_data = (test_images, test_labels))
 
+test_loss, test_acc = classifier.evaluate(test_images, test_labels, verbose = 1)
+
 # Plotting
 
 plt.figure(figsize=(8, 8))
@@ -105,8 +107,6 @@ plt.legend(loc = 'upper right')
 plt.title('Training and Validation Loss')
 
 plt.show()
-
-test_loss, test_acc = classifier.evaluate(test_images, test_labels, verbose = 1)
 
 print("The accuracy of the model is {} and the loss associated with the model is {}".format(test_acc, test_loss))
 
